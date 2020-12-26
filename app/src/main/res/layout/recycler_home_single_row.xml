@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    android:background="#ffffff">
+
+<LinearLayout
+android:id="@+id/resContent"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:weightSum="6">
+    <ImageView
+        android:id="@+id/imgRestaurantImage"
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:scaleType="centerCrop"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="1.5"/>
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_weight="3.1"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of dish"
+        android:padding="8dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/txtRestaurantCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200/person"
+        android:layout_marginTop="15dp"
+        android:textColor="#357a38"
+        android:layout_below="@id/txtRestaurantName"
+        android:padding="8dp"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="110dp"
+        android:layout_weight="1.4">
+        <ImageView
+            android:id="@+id/imgFavIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_heart_on"/>
+
+        <TextView
+            android:id="@+id/txtRestaurantRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgFavIcon"
+            android:text="4.1"
+            android:textSize="16sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="50sp"
+            android:textColor="#ffca28"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

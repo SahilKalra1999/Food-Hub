@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Dinner Point</string>
+
+    <string name="login_preference">Login Preferences</string>
+    <string name="login_preferences">Login Preferences</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favorite_restaurants">Favorite Restaurants</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Log out</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="my_profile_fragment">My Profile</string>
+    <string name="favorite_restaurants_fragment">Favorite Restaurants</string>
+    <string name="faqs_fragment">FAQs</string>
+    <string name="logout_fragment">Logout</string>
+</resources>
